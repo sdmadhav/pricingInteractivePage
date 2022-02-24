@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+  <header>
+
+      <h2 class="heading-h2">Simple, traffic-based pricing</h2 class="header-h2">
+      <p class="paragraph">Sign-up for our 30-day trial.<br> No credit card required. </p>
+  </header>
+
+
+  <main>
+    <div class="pageviews-section">
+      <h4 id="view-count"></h4>
+      <h4>Pageviews</h4>
+    </div>
+
+    <div class="slidecontainer">
+      <input name="pwd" type="range" min="0" max="4" step="1" value="2" id="myRange">
+    </div>
+
+    <div class="bill-section">
+
+      <span class="bill-amount">$</span>
+      <span class="bill-amount" id="bill-id"></span>
+      <span class="paragraph">/ month</span>
+
+    </div>
+
+    <div class="slider-section">
+
+      <span class="paragraph leftOfswitch">Monthly Billing</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <div class="rightOfswitch">
+      <span class="paragraph ">Yearly Billing</span>
+      <span class="disc-amount"><span class="forMobile">-</span>25% <span class="forDesktop">  discount</span></span>
+    </div>
+      
+
+    </div>
+
+    <div class="last-desktop-section">
+
+        <ul>
+
+          <li class="paragraph">Unlimited websites</li>
+          <li class="paragraph">100% data ownership</li>
+          <li class="paragraph">Email reports</li>
+
+        </ul>
+
+        <div class="start-trial-btn">
+
+          <button>
+
+            Start my trial
+
+          </button>
+
+    </div>
+
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
